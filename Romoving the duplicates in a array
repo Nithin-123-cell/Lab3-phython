@@ -1,0 +1,10 @@
+arr1=[10,20,10,30,40,20,30];
+final=[]
+for i in arr1:
+    if i not in arr1:
+      final.append(i)
+print("original list is:")
+print(arr1)
+print("list after removing duplicates:")
+print(final)
+    
